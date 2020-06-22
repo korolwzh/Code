@@ -1,0 +1,13 @@
+[{
+        "model": "auth.permission",
+        "codename": "add_logentry",
+        "name": "Can add log entry",
+	"subjects": [60, [80]],
+	"address2": {"streetAddress": "21 2nd Street", 
+		"cars": {
+    			"car1":"Ford",
+    			"car2":"BMW",
+    			"car3":"Fiat"
+  }},
+    }, 
+]

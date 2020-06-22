@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/speed_test_uint64_array.dir/speed_test_uint64_array.c.o  -o speed_test_uint64_array -Wl,-rpath,/home/kantokuleo/Documents/CMPT473/msgpack-c-master/build ../../libmsgpackc.so.2.0.0 

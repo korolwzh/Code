@@ -1,0 +1,1 @@
+/usr/bin/c++  -DMSGPACK_DEFAULT_API_VERSION=3 -std=c++98   -rdynamic CMakeFiles/convert.dir/convert.cpp.o  -o convert -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lz -lpthread 

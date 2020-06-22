@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/lib_buffer_unpack.dir/lib_buffer_unpack.c.o  -o lib_buffer_unpack -Wl,-rpath,/mnt/d/Code/CMPT473/A4/msgpack-c-master ../../libmsgpackc.so.2.0.0 

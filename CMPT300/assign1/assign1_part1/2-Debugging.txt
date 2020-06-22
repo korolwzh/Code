@@ -1,0 +1,45 @@
+Part Two: Fixing the Bugs
+-------------------------
+
+Understanding the code
+
+  1) Explain why this program uses the exclamation operator with the
+     strcmp() function.
+
+	A: exclamation operator means the two strings are not identical.
+The whole if-statement means if two strings are not identical then counter add one.
+
+
+  2) Explain why the 'LENGTH' macro returns the length of an array.
+     Would it work with a pointer to a dynamically allocated array? (Hint:
+     understand sizeof).
+
+	A: LENGTH funcion call the sizeof function 
+and sizeof function can be used to calculate number of elements of the array automatically.
+And yes, sizeof function can be used in dynamic memory allocation.
+
+
+Bug hunting
+
+  3) Explain and fix the logical flow bug within the switch statement.
+     (What happens when the -h option is used?)
+
+	A: we need break after the case 'h' executed, otherwise it will execute everything
+after the matching label. 
+
+
+  4) Explain and fix the argument parsing error. (Why is entrycount never
+     zero?)
+
+	A: Because we use entrycount++ when we first check the length of entries.
+After this, entrycount is set to be one. So I just add an new int temp = entrycount -1,
+and use this temp for the counter of entry.
+
+
+  5) Fix print_result() to print results correctly and in the same order
+     as the words were specified on the command line.  Explain your solution.
+
+	A: Firstly, it's wrong way to call the struct,it should called by entries[].word. 
+Then we need to add a counter to access the entries array, so I add a int i to loop the printf.
+
+

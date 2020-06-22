@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/simple_c.dir/simple_c.c.o  -o simple_c -Wl,-rpath,/home/kantokuleo/Documents/CMPT473/msgpack-c-master/build ../../libmsgpackc.so.2.0.0 

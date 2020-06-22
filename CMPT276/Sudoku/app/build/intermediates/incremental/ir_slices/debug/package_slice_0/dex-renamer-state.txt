@@ -1,0 +1,4 @@
+#Mon Mar 25 15:53:27 PDT 2019
+base.0=D\:\\Code\\Sudoku\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

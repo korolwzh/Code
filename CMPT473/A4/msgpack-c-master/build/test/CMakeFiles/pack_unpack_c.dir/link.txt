@@ -1,0 +1,1 @@
+/usr/bin/c++  -DMSGPACK_DEFAULT_API_VERSION=3 -std=c++98   -rdynamic CMakeFiles/pack_unpack_c.dir/pack_unpack_c.cpp.o  -o pack_unpack_c -Wl,-rpath,/home/kantokuleo/Documents/CMPT473/msgpack-c-master/build ../libmsgpackc.so.2.0.0 -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lz -lpthread 

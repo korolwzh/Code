@@ -1,0 +1,1 @@
+/usr/bin/c++  -DMSGPACK_DEFAULT_API_VERSION=3 -std=c++98   -rdynamic CMakeFiles/msgpack_stream.dir/msgpack_stream.cpp.o  -o msgpack_stream -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lz -lpthread 

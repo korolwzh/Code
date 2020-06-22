@@ -1,0 +1,49 @@
+{# Load the tag library #}
+
+{% load bootstrap4 %}
+{% load static %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+<header>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- icon -->
+    <img src="{% static '../static/images/46271.png' %}" width="40" height="40" class="d-inline-block align-top navbar-brand" alt="" />
+
+    <a class="navbar-brand" href="/">BookClub</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contactus">Contact Us</a>
+      </li>
+      <!-- Login Dropdown -->
+      {% block content %}
+      {% if not request.user.is_authenticated %}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Get Started!
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="login.html">Register</a>
+          <a class="dropdown-item" href="login.html">Login</a>
+        </div>
+      </li>
+      {% endif %}
+      {% endblock %}
+    </ul>
+  </nav>
+</header>
+{% block content1 %}
+{% endblock %}
+<footer class="container">
+  <p class="float-right"><a href="#">Back to top</a></p>
+  <p>© 2017-2019 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>

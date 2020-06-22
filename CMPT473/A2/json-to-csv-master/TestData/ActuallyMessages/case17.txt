@@ -1,0 +1,2 @@
+JSONFlattener:107 - JsonFlattener#ParseJson(file, encoding) IOException: 
+java.io.FileNotFoundException: File 'TestData\TestFiles\case17.json' does not exist

@@ -1,0 +1,13 @@
+[{
+        "model":50,
+        "codename":60,
+	"subjects": [60, [80]],
+	"address2": {"streetAddress": 50, 
+		"cars": {
+    			"car1":60,
+    			"car2":70,
+    			"car3":90
+  }},
+    	
+    }, 
+]

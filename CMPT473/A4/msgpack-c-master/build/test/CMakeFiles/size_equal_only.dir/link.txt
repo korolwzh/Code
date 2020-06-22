@@ -1,0 +1,1 @@
+/usr/bin/c++  -DMSGPACK_DEFAULT_API_VERSION=3 -std=c++98   -rdynamic CMakeFiles/size_equal_only.dir/size_equal_only.cpp.o  -o size_equal_only -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lz -lpthread 

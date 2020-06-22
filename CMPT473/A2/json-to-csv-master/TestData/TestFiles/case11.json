@@ -1,0 +1,6 @@
+[{
+        "model": 40,
+        "codename": 50,
+    	"subjects": [60],
+	"address": {"streetAddress": 70},
+    }, 

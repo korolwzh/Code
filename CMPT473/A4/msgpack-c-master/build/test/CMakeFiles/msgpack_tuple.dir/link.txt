@@ -1,0 +1,1 @@
+/usr/bin/c++  -DMSGPACK_DEFAULT_API_VERSION=3 -std=c++98   -rdynamic CMakeFiles/msgpack_tuple.dir/msgpack_tuple.cpp.o  -o msgpack_tuple -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lz -lpthread 

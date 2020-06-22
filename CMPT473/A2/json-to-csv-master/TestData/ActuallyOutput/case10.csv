@@ -1,0 +1,2 @@
+address2.cars.car2,address2.cars.car3,address2.cars.car1,address2.streetAddress,codename,subjects[1],subjects[1][1],name,model
+BMW,Fiat,Ford,21 2nd Street,add_logentry,60,80,Can add log entry,auth.permission

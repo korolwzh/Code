@@ -1,0 +1,7 @@
+From the test case 10-17, there is 3 case passed and 5 case failed.
+If I don't use pairwise testing, there will be totally 240 test case I have to test.
+
+The hardest part of this assignment is partitioning. Dividing the block requir us knwoing very well about the input domain, in our program,
+it requir us learn the json file well. How many data type it has, and what is the json object within object and json array within array.
+After we finish the partitioning, erverything is easy.
+

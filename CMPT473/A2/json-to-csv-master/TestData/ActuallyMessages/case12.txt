@@ -1,0 +1,2 @@
+JSONFlattener:130 - Handle the JSON String as JSON Array
+JSONFlattener:185 - JSON might be malformed, Please verify that your JSON is valid

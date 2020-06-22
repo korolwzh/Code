@@ -1,0 +1,88 @@
+<html><head><link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+<script crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head><body><header>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- icon -->
+    <img src="images/46271.png" width="40" height="40" class="d-inline-block align-top navbar-brand" alt="">
+
+    <a class="navbar-brand" href="index.html">BookClub</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact_us.html">Contact Us</a>
+      </li>
+      <!-- Login Dropdown -->
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Get Started!
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="register.html">Register</a>
+          <a class="dropdown-item" href="signin.html">Login</a>
+        </div>
+      </li>
+
+
+    </ul>
+  </nav>
+</header>
+
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.15399" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.15399">
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.15399">
+<link rel="stylesheet" href="css/forms.css">
+
+<body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="noCognitoMessage" class="configMessage" style="display: none;">
+            <div class="backdrop"></div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">No Cognito User Pool Configured</h3>
+                </div>
+                <div class="panel-body">
+                    <p>There is no user pool configured in <a href="/js/config.js">/js/config.js</a>. You'll configure this in Module 2 of the workshop.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <section class="form-wrap" style="margin:0 auto; width:400px; text-align:center;" novalidate="true">
+            <h1>Sign In</h1>
+            </br>
+            </br>
+            <form id="signinForm">
+              <input type="email" id="emailInputSignin" placeholder="Email" required>
+              </br>
+              </br>
+              <input type="password" id="passwordInputSignin" placeholder="Password" pattern=".*" required>
+              </br>
+              </br>
+              <input type="submit" value="Sign in">
+            </form>
+        </section>
+
+
+        <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+        <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/cognito-auth.js"></script>
+    </body>
+
+<footer class="container">
+  <p class="float-right"><a href="#">Back to top</a></p>
+  <p>© 2017-2019 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+</body></html>

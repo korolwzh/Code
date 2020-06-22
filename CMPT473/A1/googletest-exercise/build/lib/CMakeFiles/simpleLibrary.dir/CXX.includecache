@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Awards.h
+string
+-
+
+../include/Hailstone.h
+stdint.h
+-
+
+../include/Triangle.h
+stdint.h
+-
+
+/mnt/d/code/cmpt473/googletest-exercise/lib/Awards.cpp
+Awards.h
+/mnt/d/code/cmpt473/googletest-exercise/lib/Awards.h
+
+/mnt/d/code/cmpt473/googletest-exercise/lib/Hailstone.cpp
+Hailstone.h
+/mnt/d/code/cmpt473/googletest-exercise/lib/Hailstone.h
+
+/mnt/d/code/cmpt473/googletest-exercise/lib/Triangle.cpp
+math.h
+-
+assert.h
+-
+Triangle.h
+/mnt/d/code/cmpt473/googletest-exercise/lib/Triangle.h
+
