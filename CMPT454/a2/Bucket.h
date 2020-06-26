@@ -13,6 +13,7 @@ class Bucket {
 		int size;
 		int *valueArr;
 		int count;//count the number of value in the bucket
+		bool p;//determin whether the bucket is printed or not
 		
 		Bucket();
 		Bucket(int size);

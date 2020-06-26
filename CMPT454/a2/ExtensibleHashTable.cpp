@@ -173,11 +173,13 @@ bool ExtensibleHashTable::remove(int key){
 
 void ExtensibleHashTable::print()
 {
-	int temp = directory_size/2;
     for(int i = 0 ; i < directory_size ; i++ )
     {
-    	if(bucketArr[i-temp] != bucketArr[i])
+    	if(bucketArr[i]->p == false)
+    	{
         	cout << i << ": " << bucketArr[i] << " --> " << bucketArr[i]->print() << endl;
+        	bucketArr[i]->p = true;
+    	}
         else
         	cout << i << ": " << bucketArr[i] << " --> " << endl;
     }

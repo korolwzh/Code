@@ -10,6 +10,8 @@ Bucket::Bucket()
     local_depth = 1;
     size = 4;
     valueArr = new int[size];
+    p = false;
+    count = 0;
     //keys are non-nagative
     //if there is no key, valueArr[i] = -1
     for(int i = 0 ; i < size; i++)
@@ -23,6 +25,8 @@ Bucket::Bucket(int size)
     local_depth = 1;
     this->size = size;
 	valueArr = new int[size];
+	p = false;
+	count = 0;
 	for(int i = 0 ; i < size; i++)
     {
     	valueArr[i] = -1;
